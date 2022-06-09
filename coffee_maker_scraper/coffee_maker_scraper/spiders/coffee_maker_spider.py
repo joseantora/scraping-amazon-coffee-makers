@@ -4,7 +4,7 @@ import scrapy
 MAX_COFFEE_MAKERS = 10
 
 class CoffeeMakerSpider(scrapy.Spider):
-    name = 'coffee_maker'
+    name = 'coffee_makers'
 
     def start_requests(self):
         urls = [
