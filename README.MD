@@ -1,4 +1,4 @@
-# Coffee maker review scraper
+# scraping-amazon-coffee-makers
 
 This is a project that seeks to obtain information on coffee makers and the opinions of people about them.
 
