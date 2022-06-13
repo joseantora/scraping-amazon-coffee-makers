@@ -12,8 +12,8 @@ pip install -r requirements.txt
 
 ## Usage
 
-To make the spider perform the crawl, use the following command:
+First, be sure to navigate into the project folder in order to execute the commands "..\scraping-amazon-coffee-makers". To make the spider perform the crawl, use the following command:
 
 ```bash
-scrapy crawl coffee_makers
+scrapy crawl coffee_makers -o coffee_makers.csv -t csv
 ```

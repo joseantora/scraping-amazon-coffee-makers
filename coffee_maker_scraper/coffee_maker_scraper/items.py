@@ -8,5 +8,7 @@ import scrapy
 
 class CoffeeMakerScraperItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
+    p_name = scrapy.Field()
+    rating = scrapy.Field()
+    review = scrapy.Field()
     pass
