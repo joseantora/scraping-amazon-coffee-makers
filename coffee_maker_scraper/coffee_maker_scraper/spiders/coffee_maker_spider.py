@@ -29,9 +29,10 @@ class CoffeeMakerSpider(scrapy.Spider):
         reviews = response.css('.a-expander-partial-collapse-content span::text').getall()
         for i in range(len(ratings)):
             coffee_maker = {
-                'name': product_name,
-                'rating': ratings[i],
-                'review': reviews[i]
+                'Name': product_name,
+                'URL': response.url,
+                'Rating': ratings[i],
+                'Review': reviews[i]
             }
             print(coffee_maker)
             yield coffee_maker
