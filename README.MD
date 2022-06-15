@@ -38,3 +38,7 @@ Our team contributions are divided as follow:
 - Diego Castañeda: System desing and scrapy usage investigator for scraping Amazon websites.
 - Jose Antonio Ramirez: Creator of base project structure and initital scrape over amazon coffee makers.
 - Sebastián Galindo: Creator of scrapy recursion over amazon coffee makers pages and output with top reviews.
+
+## Important
+
+It's important to take into account that amazon will block several request coming from the same scrapper.
